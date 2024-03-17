@@ -1,0 +1,39 @@
+.games{
+    width: 100%;
+    margin-top: 204px;
+
+    & h2{
+        margin: 20px;
+        margin-left: 38%;
+    }
+    & .games-list{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    & .games-item{
+        width: 30%;
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & img{
+            width: 80%;
+           
+            &:hover{
+                transform: scale(1.1);    
+            }
+        }
+        & h3{
+            margin-top: 2.5rem;
+        }
+        & h4{
+            color: var(--color-purple1);
+        }
+    }
+
+}
+
